@@ -47,3 +47,27 @@ h5,
 h6 {
   text-wrap: balance;
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/fraunces/fraunces-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/manrope/manrope-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/manrope/manrope-600.woff2") format("woff2");
+}
