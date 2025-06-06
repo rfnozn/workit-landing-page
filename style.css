@@ -45,6 +45,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
   text-wrap: balance;
 }
 
@@ -70,4 +71,9 @@ h6 {
   font-style: normal;
   font-weight: 600;
   src: url("assets/fonts/manrope/manrope-600.woff2") format("woff2");
+}
+
+html {
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
