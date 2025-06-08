@@ -183,3 +183,65 @@ html {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.features {
+  background-color: var(--purple-100);
+}
+
+.features__content {
+  display: grid;
+  text-align: center;
+  gap: 32px;
+  padding-block: 64px;
+}
+
+.feature__item {
+  display: grid;
+  place-items: center;
+  line-height: 1.8;
+  color: var(--purple-900);
+}
+
+.feature__number {
+  width: 48px;
+  height: 48px;
+  border: solid 1px var(--purple-500);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 24px;
+}
+
+.feature__number p {
+  color: var(--purple-900);
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feature__title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.cta__about {
+  background-color: var(--purple-900);
+  color: var(--white);
+  padding: 32px;
+  line-height: 1.8;
+  text-align: center;
+  display: grid;
+  gap: 32px;
+}
+
+.cta__title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.cta__button {
+  justify-self: center;
+}
