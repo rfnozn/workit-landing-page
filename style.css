@@ -87,9 +87,21 @@ html {
 }
 
 .container {
-  width: 90%;
+  width: calc(100% - 40px);
   max-width: 70rem; /* 1120px */
   margin-inline: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: calc(100% - 88px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: calc(100% - 320px);
+  }
 }
 
 .header {
@@ -133,6 +145,10 @@ html {
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    padding-block-start: 56px;
+  }
+
   .header::before {
     translate: -22% 40%;
     width: 360px;
