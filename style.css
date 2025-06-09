@@ -208,7 +208,13 @@ html {
   background-image: linear-gradient(var(--purple-900) 50%, var(--purple-100) 50%);
 }
 
+.features__curved-bottom {
+  position: relative;
+  background-image: linear-gradient(var(--purple-100) 50%, var(--white) 50%);
+}
+
 .illustration {
+  width: clamp(20rem, 6.15771812080537rem + 59.06040268456375vw, 47.5rem);
   position: relative;
   z-index: 1;
   margin-inline: auto;
@@ -219,8 +225,19 @@ html {
   position: absolute;
   inset: 49% 0 0 0;
   width: 100%;
-  height: 7vh;
+  height: 8vw;
   background-image: url("assets/images/curved-hero-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.features__curved-bottom::after {
+  content: "";
+  position: absolute;
+  inset: 49% 0 0 0;
+  width: 100%;
+  height: 8vw;
+  background-image: url("assets/images/curved-hero-bottom-light.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
