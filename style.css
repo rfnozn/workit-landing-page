@@ -321,8 +321,23 @@ html {
 
 @media screen and (min-width: 768px) {
   .cta__content {
+    position: relative;
     grid-template-columns: auto 102px auto;
     grid-template-rows: auto 112px auto;
+  }
+
+  .cta__content::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 220px;
+    bottom: 0;
+    right: 0;
+    translate: 10% 50%;
+    background-image: url("assets/images/bg-pattern-3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .cta__headshot {
