@@ -132,6 +132,20 @@ html {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header::before {
+    translate: -22% 40%;
+    width: 360px;
+    height: 250px;
+  }
+
+  .header::after {
+    translate: 65% 145%;
+    width: 300px;
+    height: 150px;
+  }
+}
+
 .header__navbar {
   display: flex;
   justify-content: space-between;
@@ -214,7 +228,7 @@ html {
 }
 
 .illustration {
-  width: clamp(20rem, 6.15771812080537rem + 59.06040268456375vw, 47.5rem);
+  width: clamp(20rem, 7.416107382550335rem + 53.691275167785236vw, 45rem);
   position: relative;
   z-index: 1;
   margin-inline: auto;
